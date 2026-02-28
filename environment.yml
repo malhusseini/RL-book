@@ -1,0 +1,19 @@
+# Conda environment for CME 241 - RL Foundations (Assignment 2)
+# Create with: conda env create -f environment.yml
+# Activate with: conda activate cme241
+name: cme241
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - jupyter
+  - graphviz
+  - python-graphviz
+  - pip
+  - pip:
+    - -e .   # local rl-book package (run conda env create from repo root)
