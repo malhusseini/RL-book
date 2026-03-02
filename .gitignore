@@ -29,3 +29,5 @@ latex/Alon*
 latex/epigrafica.sty
 lgrenc.def
 
+# Large data files
+Project/crsp_daily_sp500.csv
